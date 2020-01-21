@@ -1,0 +1,36 @@
+{
+  "name": "eslint-autosave-test",
+  "version": "1.0.0",
+  "description": "Testing out the reason caused ESlint autosave not working on certain machine with exactly same config",
+  "main": "test.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-config-cyf": "0.0.9",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-html": "^5.0.5",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.18.0",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "prettier": "^1.19.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yifanchen/eslint-autosave-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yifanchen/eslint-autosave-test/issues"
+  },
+  "homepage": "https://github.com/yifanchen/eslint-autosave-test#readme"
+}
